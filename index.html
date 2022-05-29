@@ -11,71 +11,71 @@
     <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <a href="WebStudio"><h3 class="text-logo"><span class="blue">Web</span><span class="black">Studio</span></h3></a>
+        <header class="header container">
+            <div class="container-header">
+            <a class="logo-item" href="WebStudio"><h3 class="text-logo"><span class="blue">Web</span><span class="black">Studio</span></h3></a>
             <nav>
-            <ul>
-                <li><a href="index.html" class="black link">Agencja</a></li>
-                <li><a href="portfolio.html" class="black link">Portfolio</a></li>
-                <li><a href="" class="black link">Kontakt</a></li>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html" class="black link">Agencja</a></li>
+                <li class="menu-item"><a href="portfolio.html" class="black link">Portfolio</a></li>
+                <li class="menu-item"><a href="" class="black link">Kontakt</a></li>
             </ul>
             </nav> 
-            <ul>
-                <li><a href="mailto:info@devstudio.com" class="grey link">info@devstudio.com</a></li>
-                <li><a href="phone:+48111111111" class="grey link">(+48)111 111 111</a></li>
+            <ul class="menu">
+                <li class="menu-item"><a href="mailto:info@devstudio.com" class="grey link">info@devstudio.com</a></li>
+                <li class="menu-item"><a href="phone:+48111111111" class="grey link">(+48)111 111 111</a></li>
             </ul>
+            </div>
         </header>
         <main>
-        <section class="button1 area">
-            <h1 class="text-heading">EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1> 
-            <button class="button" type="button">Zamów usługe</button> 
+        <section class="container">
+            <div class="area"><h1 class="text-heading">EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1> 
+            <button class="button button1" type="button">Zamów usługe</button> 
+            </div>
         </section>
-        <section class="align-left">
-                <h3 class="text-post">LOREM IPSUM</h3>
-                <p class="text-post1">
+        <section class="card-set container">
+                    <div class="card-item"><h3 class="text-post">LOREM IPSUM</h3>
+                    <p class="text-post1">
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
-non sodales dui. Interdum et malesuada
-                </p>  
-                <h3 class="text-post">LOREM IPSUM</h3>
-                <p class="text-post1">
+non sodales dui. Interdum et malesuada</p></div>
+                   <div class="card-item"><h3 class="text-post">LOREM IPSUM</h3>
+                    <p class="text-post1">
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
-non sodales dui. Interdum et malesuada
-                </p>  
-                <h3 class="text-post">LOREM IPSUM</h3>
-                <p class="text-post1">
+non sodales dui. Interdum et malesuada</p></div>
+                    <div class="card-item"><h3 class="text-post">LOREM IPSUM</h3>
+                    <p class="text-post1">
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
-non sodales dui. Interdum et malesuada
-                </p>                     
-                <h3 class="text-post">LOREM IPSUM</h3>
-                <p class="text-post1">
+non sodales dui. Interdum et malesuada</p></div>
+                    <div class="card-item"><h3 class="text-post">LOREM IPSUM</h3>
+                    <p class="text-post1">
 Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Nam vel arcu sem. Sed
-non sodales dui. Interdum et malesuada
-                </p>                     
+non sodales dui. Interdum et malesuada</p></div>                  
         </section>
-        <section>
+        <section class="section container">
         <h2 class="text-heading2">Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images/first.jpg" 
+            <ul class="img-item">
+                <li class="img-item2a"><img src="images/first.jpg" 
                 alt="pisanie kodu"
                 width="370"
                 height="294"></li>
-                <li><img src="images/second.jpg" 
+                <li class="img-item2a"><img src="images/second.jpg" 
                 alt="ustawianie grafiki w telefonie"
                 width="370"
                 height="294"></li>
-                <li><img src="images/third.jpg" 
+                <li class="img-item2a"><img src="images/third.jpg" 
                 alt="paleta kolorów"
                 width="370"
                 height="294"></li>
             </ul>
         </section>    
-        <section class="area2">
+        <section class="area2 section container">
         <h2 class="text-heading2">Nasz zespół</h2> 
-            <figure>
+            <ul class="img-item">
+                <li class="img-item2"><figure>
                 <img 
                     src="images/Product Designer.jpg" 
                     alt="Product Designer"
@@ -85,8 +85,8 @@ non sodales dui. Interdum et malesuada
                     <h3 class="text-figcaption">John Doe</h3>
                     <p class="text-figcaption1">Product Designer</p>
                 </figcaption>
-            </figure> 
-            <figure>
+            </figure></li>
+            <li class="img-item2"><figure>
                 <img 
                     src="images/Frontend Developer.jpg"
                     alt="Frontend Developer"
@@ -96,8 +96,8 @@ non sodales dui. Interdum et malesuada
                     <h3 class="text-figcaption">John Doe</h3>
                     <p class="text-figcaption1">Frontend Developer</p>
                 </figcaption>
-            </figure>
-            <figure>
+            </figure></li>
+            <li class="img-item2"><figure>
                 <img 
                 src="images/Marketing.jpg" 
                 alt="Marketing"
@@ -107,8 +107,8 @@ non sodales dui. Interdum et malesuada
                     <h3 class="text-figcaption">John Doe</h3>
                     <p class="text-figcaption1">Marketing</p>
                 </figcaption>
-            </figure>
-            <figure>
+            </figure></li>
+            <li class="img-item2"><figure>
                 <img 
                 src="images/UI Designer.jpg" 
                 alt="UI Designer"
@@ -118,18 +118,19 @@ non sodales dui. Interdum et malesuada
                     <h3 class="text-figcaption">John Doe</h3>
                     <p class="text-figcaption1">UI Designer</p>
                 </figcaption>
-            </figure>
+            </figure></li>
+        </ul>
         </section>
         </main>
-        <footer class="area">
-            <a href="WebStudio"><h3 class="text-logo"><span class="blue">Web</span><span class="white">Studio</span></h3></a>
+      <footer class="area3 container">
+            <a href="WebStudio"><h3 class="text-logo-footer"><span class="blue">Web</span><span class="white">Studio</span></h3></a>
             <address class="text-adres white">
             m. Warszawa, Aleje Jerozolimskie 21
             </address>
             <address>
             <a href="mailto:info@example.com" class="text-adres color-adres link">info@example.com</a>
             </address>
-            <address>
+            <address class="padding">
             <a href="phone:+48111111111" class="text-adres color-adres link">(+48)111 111 111</a>
             </address>
         </footer>
