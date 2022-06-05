@@ -206,7 +206,6 @@ ul li {
 }
 .container {
     width: 1200px;
-    padding: 0 15px;
     margin: 0 auto;  
 }
 .container-header {
@@ -214,10 +213,15 @@ ul li {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    
+}
+.container-footer {
+    display: flex;
+    align-content: center;
 }
 .header {
-    border-bottom: 1px solid #ECECEC;
     background: var(--brand-second-color);
+    border-bottom: 1px solid #ECECEC;
 }
 .menu {
     display: flex;
