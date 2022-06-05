@@ -3,6 +3,7 @@ body {
     font-style: normal;
     font-weight: 400;
     color: #212121;
+    margin: 0;
 }
 
 .text-logo {
@@ -22,10 +23,9 @@ body {
     line-height: 1, 19;
     letter-spacing: 0, 03em;
     text-decoration: none;
-    padding-top: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
-        
+    padding-bottom: 20px;
 }
 
 .link:hover {
@@ -49,8 +49,7 @@ body {
 }
 .area {
     background: #2f303a;
-    padding-top: 180px;
-    padding-bottom: 200px;
+    height: 600px;
 }
 .section {
  padding-top: 94px;
@@ -74,6 +73,8 @@ body {
     font-size: 44px;
     line-height: 1, 36;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
     color: #FFFFFF;
 }
 
@@ -135,11 +136,11 @@ body {
     font-size: 14px;
     line-height: 1, 71;
     letter-spacing: 0, 03em;
+    text-decoration: none;
+    padding-bottom: 9px;
 }
 
 .color-adres {
-    text-decoration-line: underline;
-    
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -152,6 +153,7 @@ a {
     justify-content: center;
     list-style: none;
     padding-bottom: 0px;
+    margin: 0px;
 }
 .button {
     background-color: #F5F4FA;
@@ -191,8 +193,7 @@ a {
     margin: auto;
     background-color: #2196f3;
     border-radius: 4px;
-    padding-top: 40;
-}
+   }
 
 h1 h2 h3 h4 {
     margin: 0;
@@ -216,11 +217,10 @@ ul li {
     
 }
 .container-footer {
-    display: flex;
-    align-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .header {
-    background: var(--brand-second-color);
     border-bottom: 1px solid #ECECEC;
 }
 .menu {
@@ -232,13 +232,10 @@ ul li {
 }
 .menu-item {
     margin-left: 23px;
-    margin-right: 23px;
     align-items: center;
 }
 .logo-item {
     padding-top: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-bottom: 24px;
 }
 .card-set {
@@ -254,6 +251,7 @@ ul li {
     flex-wrap: wrap;
     list-style: none;
     padding-left: 0px;
+    margin: 0px;
 }
 figure {
     padding: 0;
@@ -288,6 +286,4 @@ figure {
     margin-right: 0px;
     margin-left: 0px;
 }
-.paddind {
-    padding-left: 15px;
-}
+
